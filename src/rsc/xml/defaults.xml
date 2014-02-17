@@ -7,7 +7,7 @@
         <insets top="2" left="2" right="3" bottom="3" />
 
         <state>
-            <color value="#FFFFFF" type="BACKGROUND" />
+            <color value="#000000" type="BACKGROUND" />
         </state>
     </style>
     <bind style="defaultPanelStyle" type="region" key="Panel" />
@@ -20,18 +20,18 @@
         <insets top="7" left="6" right="10" bottom="10" />
 
         <state>
-            <color value="#F5F5F5" type="BACKGROUND" />
+            <color value="#cccccc" type="BACKGROUND" />
             <font name="SansSerif" size="16" style="BOLD" />
             <painter method="buttonBackground" idref="myPainter" />
         </state>
         <state value="PRESSED and MOUSE_OVER">
-            <color value="#BFBFBF" type="BACKGROUND" />
+            <color value="#bfbfbf" type="BACKGROUND" />
             <color value="#555555" type="FOREGROUND" />
             <painter method="buttonBackground" idref="myPainter" />
         </state>
 
         <state value="MOUSE_OVER">
-            <color value="#FEFEFE" type="BACKGROUND" />
+            <color value="#d4d4d4" type="BACKGROUND" />
             <painter method="buttonBackground" idref="myPainter" />
         </state>
     </style>
@@ -45,11 +45,11 @@
         <insets top="7" left="3" right="8" bottom="11" />
         <state>
             <font name="SansSerif" size="16" style="BOLD" />
-            <color value="#CF0000" type="BACKGROUND" />
+            <color value="#c20000" type="BACKGROUND" />
             <painter method="textFieldBackground" idref="myPainter" />
         </state>
         <state value="FOCUSED">
-            <color value="#BB0000" type="BACKGROUND" />
+            <color value="#d80000" type="BACKGROUND" />
             <painter method="textFieldBackground" idref="myPainter" />
         </state>
     </style>

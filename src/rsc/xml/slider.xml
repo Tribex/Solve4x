@@ -29,15 +29,15 @@
         <property key="Slider.thumbHeight" type="integer" value="221" />
         <opaque value="FALSE" />
         <state>
-            <color type="BACKGROUND" value="#0000D2" />
+            <color type="BACKGROUND" value="#e77c00" />
             <painter method="sliderThumbBackground" idref="myPainter" />
         </state>
         <state value="PRESSED">
-            <color type="BACKGROUND" value="#0000A2" />
+            <color type="BACKGROUND" value="#c56a00" />
             <painter method="sliderThumbBackground" idref="myPainter" />
         </state>
         <state value="MOUSE_OVER">
-            <color type="BACKGROUND" value="#0020FF" />
+            <color type="BACKGROUND" value="#fc8800" />
             <painter method="sliderThumbBackground" idref="myPainter" />
         </state>
 
